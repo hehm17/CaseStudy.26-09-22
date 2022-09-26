@@ -67,7 +67,7 @@ public class Applicant {
 	}
 	@Override
 	public String toString() {
-		String output = String.format("%-5s %-10s %-5s %-5s %-5s %-10s",name,subject1Mark ,subject2Mark,subject3Mark,total,percentage) ;
+		String output = String.format("%-5s %-10s %-10s %-10s %-10s %-10s",name,subject1Mark ,subject2Mark,subject3Mark,total,percentage) ;
 		return output;
 	}
 	
